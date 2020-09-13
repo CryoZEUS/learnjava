@@ -142,8 +142,48 @@ public class Main {
         wName += " is my name.";
         /*conversion is automatic : */
         String drsDog = "K" + 9;
-        /*Getting a character at a position in a string : */
+        /*Getting a character at a position in a string using an index : */
         System.out.println("\nChar at index 1 : " + wName.charAt(1));
+
+        //Searching through strings :
+        /*Checking if a given string contains the string we are searching for*/
+        System.out.println(wName.contains("Derek")); //Should be True
+        //Getting index of that match :
+        System.out.println(wName.indexOf("Derek"));
+        /*Getting number of chars inside each string : */
+        System.out.println(wName.length());
+
+        //String comparison :
+        /*Method 1 : */
+        System.out.println("dog equals cat : " +
+                ("dog".equals("cat")));
+        /*Note : if you want to ignore upper/lower case of strings while comparing,
+        * use 'equalsIgnoreCase' instead of 'equals' */
+
+        /*Method 2 : */
+        System.out.println(wName.compareTo("ABC")); /*if the result of this is zero, strings are the same.
+        the value of -1 means the string comes before and anything positive means the string comes after.*/
+
+        //Replacing any different matches :
+        System.out.println(wName.replace("Derek", "Bob"));
+
+        //Getting strings using indices :
+        System.out.println(wName.substring(0,5));
+
+        //Turning strings into arrays :
+        /*using an enhanced for loop
+        * converting string into array - using .split(" ")
+        * splitting the regular expression based on spaces*/
+        for(String x: wName.split(" ")) System.out.println(x);
+
+        /*trim function deletes the whitespace at the beginning and th end of the string.
+          trim toUpperCase and trim toLowerCase*/
+
+
+
+
+
+
 
 
     }
