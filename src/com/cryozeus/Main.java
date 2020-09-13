@@ -89,9 +89,61 @@ public class Main {
         long bigNum = 123_456_789;
 
 
+        //casting - converting data types.
+        /*converting from smaller to larger data types is automatically allowed.
+         * however converting larger to smaller data types is done differently : */
+        int smInt = 10;
+        long smLong = smInt;
+
+        //whatever you want to convert it into, put it in a paranthesis like '(int)'
+        double cdbl = 1.234;
+        int cint = (int) cdbl;
+        System.out.println("\nDouble to int : " + cint);
+
+        //'L' to represent a long. Just like F for float :
+        long biglong = 2143242354455L;
+        int bInt = (int) biglong;
+        System.out.println("\nLong to int : " + bInt);
+
+        //Convert to a string using a wrapper class :
+        String favNum = Double.toString(1.618);
+        //Byte.parseByte()
+        int strInt = Integer.parseInt("10");
+        System.out.println("Int from string : " + strInt);
+
+        /*MATH FUNCTIONS :*/
+
+        System.out.println(("abs(-7) = " + Math.abs(-7)));
+        System.out.println(("ceil(4.257) = " + Math.ceil(4.257)));
+        System.out.println(("floor(4.257) = " + Math.floor(4.257)));
+        System.out.println(("round(4.257) = " + Math.round(4.257)));
+        /*Similarly, there are other math functions like :
+        * max, min, exp, log, log10, pow, sqrt, cbrt, hypot(5,5), Math.PI
+        * Trigonometric functions :
+        * sin, cos, tan, asin, acos, atan, sinh, cosh, tanh...
+        * toDegrees, toRadians*/
+
+        /*Some Other Math Libraries :
+        * Colt, Jet, WEka, JScience, Mahout, Apache Commons Math*/
 
 
+        //Generating Random Numbers :
+        int minNum = 5;
+        int maxNum = 20;
+        int randNum = minNum + (int)(Math.random() * ((maxNum - minNum) + 1));
 
+        System.out.println("Random Number b/w 5 aand 20 : " + randNum);
+
+
+        //STRINGS : 'objects' or 'reference types'
+
+        String name = "Derek";
+        String wName = name + "O'Brien";
+        wName += " is my name.";
+        /*conversion is automatic : */
+        String drsDog = "K" + 9;
+        /*Getting a character at a position in a string : */
+        System.out.println("\nChar at index 1 : " + wName.charAt(1));
 
 
     }
