@@ -17,10 +17,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfecd85d-a329-4ca8-8479-695c11092316" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cryozeus/str_builders_buffers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/learnjava/com/cryozeus/arrays.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/learnjava/com/cryozeus/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learnjava/com/cryozeus/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryozeus/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryozeus/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryozeus/arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryozeus/arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cryozeus/str_builders_buffers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryozeus/str_builders_buffers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +56,39 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.arrays">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.cryozeus.Main" />
       <module name="learnjava" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cryozeus.arrays" />
+      <module name="learnjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cryozeus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="str_builders_buffers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cryozeus.str_builders_buffers" />
+      <module name="learnjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cryozeus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,6 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.arrays" />
+        <item itemvalue="Application.str_builders_buffers" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -99,7 +128,7 @@
       <workItem from="1598984236120" duration="599000" />
       <workItem from="1599044726967" duration="2242000" />
       <workItem from="1599984322457" duration="651000" />
-      <workItem from="1599987676324" duration="1588000" />
+      <workItem from="1599987676324" duration="4006000" />
     </task>
     <servers />
   </component>
@@ -131,22 +160,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="740" height="260" key="GridCell.Tab.0.bottom" timestamp="1599989026006">
+    <state width="740" height="260" key="GridCell.Tab.0.bottom" timestamp="1599991661583">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="740" height="260" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1599989026006" />
-    <state width="740" height="260" key="GridCell.Tab.0.center" timestamp="1599989026006">
+    <state width="740" height="260" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1599991661583" />
+    <state width="740" height="260" key="GridCell.Tab.0.center" timestamp="1599991661583">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="740" height="260" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1599989026006" />
-    <state width="740" height="260" key="GridCell.Tab.0.left" timestamp="1599989026006">
+    <state width="740" height="260" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1599991661583" />
+    <state width="740" height="260" key="GridCell.Tab.0.left" timestamp="1599991661582">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="740" height="260" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1599989026006" />
-    <state width="740" height="260" key="GridCell.Tab.0.right" timestamp="1599989026006">
+    <state width="740" height="260" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1599991661582" />
+    <state width="740" height="260" key="GridCell.Tab.0.right" timestamp="1599991661583">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="740" height="260" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1599989026006" />
+    <state width="740" height="260" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1599991661583" />
     <state x="415" y="179" width="1022" height="732" key="SettingsEditor" timestamp="1598946147364">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
