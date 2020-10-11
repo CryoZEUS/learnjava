@@ -1,6 +1,10 @@
 package com.cryozeus;
 
+import java.util.Scanner;
+
 public class Casting {
+
+    static Scanner sc = new Scanner(System.in);
 
 
 
