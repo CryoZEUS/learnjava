@@ -17,14 +17,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfecd85d-a329-4ca8-8479-695c11092316" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/learnjava/com/cryozeus/Casting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/learnjava/com/cryozeus/conditionals.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/learnjava/com/cryozeus/userinput.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cryozeus/conditionals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cryozeus/looping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/learnjava/com/cryozeus/methods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cryozeus/enumerated_types.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cryozeus/methods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryozeus/Casting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryozeus/Casting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cryozeus/userinput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cryozeus/userinput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +50,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.cryozeus" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.looping">
+  <component name="RunManager" selected="Application.enumerated_types">
     <configuration name="conditionals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cryozeus.conditionals" />
       <module name="learnjava" />
@@ -78,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linkedlists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cryozeus.linkedlists" />
+    <configuration name="enumerated_types" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cryozeus.enumerated_types" />
       <module name="learnjava" />
       <extension name="coverage">
         <pattern>
@@ -117,6 +115,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cryozeus.methods" />
+      <module name="learnjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cryozeus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="userinput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cryozeus.userinput" />
       <module name="learnjava" />
@@ -130,26 +141,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.looping" />
+        <item itemvalue="Application.enumerated_types" />
+        <item itemvalue="Application.userinput" />
+        <item itemvalue="Application.methods" />
         <item itemvalue="Application.looping" />
         <item itemvalue="Application.conditionals" />
-        <item itemvalue="Application.userinput" />
-        <item itemvalue="Application.linkedlists" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +189,14 @@
       <workItem from="1602079036218" duration="1052000" />
       <workItem from="1602320850057" duration="549000" />
       <workItem from="1602321435833" duration="1882000" />
-      <workItem from="1602425317228" duration="1917000" />
+      <workItem from="1602425317228" duration="2601000" />
+      <workItem from="1603374439781" duration="3433000" />
+      <workItem from="1603378229560" duration="121000" />
+      <workItem from="1603378369552" duration="212000" />
+      <workItem from="1603378615661" duration="532000" />
+      <workItem from="1603379272295" duration="261000" />
+      <workItem from="1603379556623" duration="1212000" />
+      <workItem from="1603380850894" duration="332000" />
     </task>
     <servers />
   </component>
@@ -212,34 +228,59 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="722" y="342" width="564" height="333" key="#Notifications" timestamp="1603378473603">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="722" y="342" width="564" height="333" key="#Notifications/0.28.1920.1052/1920.335.1920.1080@0.28.1920.1052" timestamp="1603378473603" />
     <state x="693" y="304" width="524" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602321109323">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="693" y="304" width="524" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.28.1920.1052/1920.241.1920.1080@0.28.1920.1052" timestamp="1602321109323" />
-    <state width="1880" height="280" key="GridCell.Tab.0.bottom" timestamp="1602426530808">
+    <state width="1880" height="280" key="GridCell.Tab.0.bottom" timestamp="1603381171142">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1880" height="280" key="GridCell.Tab.0.bottom/0.28.1920.1052/1920.241.1920.1080@0.28.1920.1052" timestamp="1602426530808" />
+    <state width="1880" height="280" key="GridCell.Tab.0.bottom/0.28.1920.1052/1920.241.1920.1080@0.28.1920.1052" timestamp="1602427851745" />
+    <state width="1880" height="280" key="GridCell.Tab.0.bottom/0.28.1920.1052/1920.335.1920.1080@0.28.1920.1052" timestamp="1603381171142" />
     <state width="758" height="289" key="GridCell.Tab.0.bottom/0.28.1920.1052@0.28.1920.1052" timestamp="1600124649839" />
-    <state width="1880" height="280" key="GridCell.Tab.0.center" timestamp="1602426530808">
+    <state width="1880" height="280" key="GridCell.Tab.0.center" timestamp="1603381171142">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1880" height="280" key="GridCell.Tab.0.center/0.28.1920.1052/1920.241.1920.1080@0.28.1920.1052" timestamp="1602426530808" />
+    <state width="1880" height="280" key="GridCell.Tab.0.center/0.28.1920.1052/1920.241.1920.1080@0.28.1920.1052" timestamp="1602427851745" />
+    <state width="1880" height="280" key="GridCell.Tab.0.center/0.28.1920.1052/1920.335.1920.1080@0.28.1920.1052" timestamp="1603381171142" />
     <state width="758" height="289" key="GridCell.Tab.0.center/0.28.1920.1052@0.28.1920.1052" timestamp="1600124649838" />
-    <state width="1880" height="280" key="GridCell.Tab.0.left" timestamp="1602426530808">
+    <state width="1880" height="280" key="GridCell.Tab.0.left" timestamp="1603381171142">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1880" height="280" key="GridCell.Tab.0.left/0.28.1920.1052/1920.241.1920.1080@0.28.1920.1052" timestamp="1602426530808" />
+    <state width="1880" height="280" key="GridCell.Tab.0.left/0.28.1920.1052/1920.241.1920.1080@0.28.1920.1052" timestamp="1602427851744" />
+    <state width="1880" height="280" key="GridCell.Tab.0.left/0.28.1920.1052/1920.335.1920.1080@0.28.1920.1052" timestamp="1603381171142" />
     <state width="758" height="289" key="GridCell.Tab.0.left/0.28.1920.1052@0.28.1920.1052" timestamp="1600124649837" />
-    <state width="1880" height="280" key="GridCell.Tab.0.right" timestamp="1602426530808">
+    <state width="1880" height="280" key="GridCell.Tab.0.right" timestamp="1603381171142">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state width="1880" height="280" key="GridCell.Tab.0.right/0.28.1920.1052/1920.241.1920.1080@0.28.1920.1052" timestamp="1602426530808" />
+    <state width="1880" height="280" key="GridCell.Tab.0.right/0.28.1920.1052/1920.241.1920.1080@0.28.1920.1052" timestamp="1602427851745" />
+    <state width="1880" height="280" key="GridCell.Tab.0.right/0.28.1920.1052/1920.335.1920.1080@0.28.1920.1052" timestamp="1603381171142" />
     <state width="758" height="289" key="GridCell.Tab.0.right/0.28.1920.1052@0.28.1920.1052" timestamp="1600124649839" />
-    <state x="2335" y="396" width="1022" height="732" key="SettingsEditor" timestamp="1602080340403">
-      <screen x="1920" y="241" width="1920" height="1080" />
+    <state width="1880" height="346" key="GridCell.Tab.1.bottom" timestamp="1603378093792">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1880" height="346" key="GridCell.Tab.1.bottom/0.28.1920.1052/1920.335.1920.1080@0.28.1920.1052" timestamp="1603378093792" />
+    <state width="1880" height="346" key="GridCell.Tab.1.center" timestamp="1603378093792">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1880" height="346" key="GridCell.Tab.1.center/0.28.1920.1052/1920.335.1920.1080@0.28.1920.1052" timestamp="1603378093792" />
+    <state width="1880" height="346" key="GridCell.Tab.1.left" timestamp="1603378093792">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1880" height="346" key="GridCell.Tab.1.left/0.28.1920.1052/1920.335.1920.1080@0.28.1920.1052" timestamp="1603378093792" />
+    <state width="1880" height="346" key="GridCell.Tab.1.right" timestamp="1603378093792">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state width="1880" height="346" key="GridCell.Tab.1.right/0.28.1920.1052/1920.335.1920.1080@0.28.1920.1052" timestamp="1603378093792" />
+    <state x="871" y="192" width="1049" height="730" key="SettingsEditor" timestamp="1603380947871">
+      <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="2335" y="396" key="SettingsEditor/0.28.1920.1052/1920.241.1920.1080@1920.241.1920.1080" timestamp="1602080340403" />
+    <state x="871" y="192" width="1049" height="730" key="SettingsEditor/0.28.1920.1052/1920.335.1920.1080@0.28.1920.1052" timestamp="1603380947871" />
     <state x="415" y="179" width="1022" height="732" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1598946147364" />
     <state x="653" y="304" width="603" height="495" key="refactoring.ChangeSignatureDialog" timestamp="1602426144863">
       <screen x="0" y="28" width="1920" height="1052" />
@@ -250,5 +291,9 @@
     </state>
     <state x="1179" y="248" key="run.anything.popup/0.28.1920.1052/1920.241.1920.1080@0.28.1920.1052" timestamp="1602322122437" />
     <state x="1179" y="248" key="run.anything.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1600093423849" />
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1603377804980">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="623" y="260" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052/1920.335.1920.1080@0.28.1920.1052" timestamp="1603377804980" />
   </component>
 </project>
