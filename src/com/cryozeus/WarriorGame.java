@@ -8,5 +8,9 @@ public class WarriorGame {
         //Making Loki a "DodgeWarrior" with a 25% chance of Blocking:
         Warrior loki = new DodgeWarrior("Loki", 800, 90, 70, 0.25);
         Battle.startFight(thor, loki);
+
+        System.out.println("Loki " + loki.teleport());
+        loki.setTeleportAbility(new CantTeleport());
+        System.out.println("Loki " + loki.teleport());
     }
 }

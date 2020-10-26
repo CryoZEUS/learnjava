@@ -13,6 +13,10 @@ public class Warrior {
     public int attKMax = 0;
     public int blockMax = 0;
 
+    //To add ability to teleport, we add an 'Instance Variable':
+    //This allows sub-classes to define at runtime whether they'll be able to Teleport or not.
+    public Teleports teleportType;
+
     //initialising a warrior whenever it is created using a Constructor:
     public Warrior(String name, int health,
                    int attKMax, int blockMax) {
@@ -44,6 +48,16 @@ public class Warrior {
         this.name = name;
     }
 
+
+    //Adding Different Abilities :
+    public String teleport() {
+        return teleportType.teleport();
+    }
+
+    //To allow for changing it dynamically:
+    public void setTeleportAbility(Teleports newTeleportType) {
+        teleportType  = newTeleportType;
+    }
 
 
 }

@@ -20,6 +20,9 @@ public class DodgeWarrior extends  Warrior{
         //handling things that are NOT in Warrior Class :
         this.dodgePercent = dodgePercent;
 
+        //Composition :
+        teleportType = new CanTeleport();
+
     }
 
     //Using this file / subclass to change things in the superclass i.e Warrior :
